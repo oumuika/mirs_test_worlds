@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version="1.6">
+	<model name="world_with_chair_v0">
+		<pose>0 0 0 0 0 0</pose>
+		<link name="world:1">
+			<pose>0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>109561.095352097</mass>
+				<pose>-0.03712085590881589 0.07846773381187871 0.3550745139141569 -0.0 -0.0 -0.0</pose>
+				<inertia>
+					<ixx>940272.4966106038</ixx>
+					<ixy>-16801.270092409984</ixy>
+					<ixz>1596.1746886879966</ixz>
+					<iyy>968089.9752392006</iyy>
+					<iyz>-3405.1666036728934</iyz>
+					<izz>1852423.2435482037</izz>
+				</inertia>
+			</inertial>
+			<collision name="world:1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://world_with_chair_v0/meshes/world.stl</uri>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="world:1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://world_with_chair_v0/meshes/world.stl</uri>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+	</model>
+</sdf>
